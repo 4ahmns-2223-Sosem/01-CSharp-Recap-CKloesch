@@ -13,7 +13,6 @@ public class MyEnumPract : MonoBehaviour
 {  
     //Deklaration
     State myState;
-    
     void Start()
     {
         myState = State.Done;
@@ -48,11 +47,5 @@ public class MyEnumPract : MonoBehaviour
         {
             Debug.Log(State.Cancel);
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
